@@ -1,0 +1,20 @@
+a {
+  text-decoration: none;
+  color: white;
+  padding: 2px;
+}
+a + a {
+  border-left: 1px solid;
+}
+body {
+  margin: 0;
+}
+header {
+  display: flex;
+  background-color: rgba(114, 44, 245, 0.801);
+  justify-content: space-around;
+  align-items: center;
+  height: 50px;
+  width: 99vw;
+  margin: 0;
+}
